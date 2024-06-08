@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>                                                                           
+select{padding:10px;
+font-size: 16px;
+font-style: oblique;
+border:1px solid rgb(91, 6, 6);
+background-color:rgb(170, 49, 61);
+;
+width: max-content;
+height: max-content;
+}
+h1{text-decoration:underline;
+font-family: 'Times New Romacolor:rgba(236, 85, 58, 0.973n', Times, serif;
+text-shadow: 3px 3px 6px rgba(217, 170, 68, 0.5);
+color:rgb(54, 24, 5)
+}
+label{font-size: larger;
+font-style:normal;
+font-display:inherit;
+color:rgb(243, 161, 55)}
+
+
+
+.body{background-image:url(https://img.freepik.com/premium-photo/red-brick-wall-background_41793-332.jpg?w=826);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0;   
+height:100vh;
+width: 100vw;
+margin: 0;
+overflow: hidden;
+position: relative;}
+.pos1 { top: 10%; left: 20%; }
+        .bg1 { top: 50%; left: 30%; }
+        .bg2 {top: 70%;left : 10%; }
+        .bg3 { top: 40%; left: 40%; }
+        .bg4 { top: 20%;left: 80%; }
+        .bg5 { top: 60%; left: 60%; }
+        @media screen and(max-width:450){
+      img{width:100%;border: 1px solid black;}
+    }
+  </style>
+  <body class="body" >
+  
+    <img src="https://i.pinimg.com/564x/da/34/6f/da346f0b46c1f3ab878794a3baa4e7ed.jpg" height="300px" width="200px" class="bg1">
+    <img src="https://i.pinimg.com/736x/34/36/2e/34362e60307f12ed5f78ad5363dccb97.jpg" height="300px" width="200px" class="bg2">
+    <img src="https://i.pinimg.com/564x/a5/d2/c4/a5d2c4a690475a8a9aa5d118be98bbef.jpg" height="300px" width="200px" class="bg3">
+    <img src="https://i.pinimg.com/736x/69/7e/85/697e8516cf6257598e1c79cb029de6e8.jpg" height="300px" width="200px" class="bg4">
+    <img src="https://i.pinimg.com/564x/68/8c/0d/688c0d72560a7115a456420ea94ef845.jpg" height="300px" width="200px" class="bg5">
+    <img src="https://i.pinimg.com/564x/81/54/38/8154381d7cb1b0678ce9c49f79de8452.jpg" height="300px" width="200px" class="bg5">
+    <img src="https://i.pinimg.com/564x/1a/e3/7f/1ae37fcf05defebd4528c2f55b691166.jpg" height="300px" width="200px" class="bg5">
+
+   
+    
+   
+   
+   
+  
+    <header>
+        <h1>Current Releases</h1>
+    </header>
+    <form class="movieform">
+        <label for="Movies">Movies Available :</label>
+        <select name="Movies_available" id="Movies">
+            <option value="movie1.html">Please choose a movie from the list below.</option>
+            <option value="movie2.html" >Aavesham </option>
+            <option value="movie3.html"  >Nadikar</option>
+            <option value="movie4.html" >Marivillin Gopurangal</option>
+        </select>
+    </form>
+    <script>
+        document.getElementById("Movies").addEventListener('change',function(){
+            var movieselected =this.value;
+            if (movieselected){
+                window.location.href =movieselected;
+            }
+        });
+        </script>
+     
+    
+</body>

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width-decice-width,initial-scale=1.0">
+<style>
+    .movies {
+        margin-bottom: 20px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 1px black;
+
+    }
+
+    .showtime {
+        font-style: italic;
+        margin-right: 5px;
+    }
+
+    .movies dd {
+        margin-bottom: 10px;
+        font-style: italic;
+        font-size: large;
+        padding: 10px;
+        color: rgb(12, 7, 0);
+
+
+    }
+
+    a {
+        font-size: larger;
+        text-decoration: none;
+        color: black;
+        display: block;
+        border: 1px solid black;
+        border-radius: 3px;
+        padding: 5px;
+        width: 30%;
+    }
+
+    .movies a:hover {
+        background-color: #f1ef56;
+    }
+
+    .movies dt {
+        font-size: larger;
+
+        margin-bottom: 10px;
+        font-weight: bold;
+        text-decoration: underline;
+        width: 50%;
+        color: rgb(34, 219, 148);
+
+    }
+
+    tr {
+        border: 1px solid black;
+        border-spacing: 15px;
+        margin-bottom: 12px;
+        border-spacing: 12px;
+        text-align: center;
+        font-size: medium;
+    }
+
+    table {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 18px;
+        text-align: left;
+        width: 50%;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+
+    tr {
+        background-color: #5a2765;
+        color: #ffffff;
+        text-align: left;
+    }
+
+    th,
+    td {
+        padding: 10px 12px;
+    }
+
+    tbody tr {
+        border-bottom: 1px solid #dddddd;
+    }
+
+    .table tbody tr:nth-of-type(even) {
+        background-color: #57ecd1;
+    }
+
+    .table tbody tr:last-of-type {
+        border-bottom: 2px solid #8fcdde;
+    }
+
+    @media screen and(max-width:450) {
+        img {
+            width: 100%;
+            border: 1px solid black;
+        }
+    }
+</style>
+
+<body>
+    <img src="https://logopond.com/logos/98c5138295891c84a5306b4375f5abb6.png" height="300px" width="400px">
+    <h1>SHOW TIME</h1>
+    <list class="movies">
+        <dt>Morning Shows:</dt>
+        <dd><span class="showtime">9:00 AM</span><a href="movie2.html">- Aavesham</a> </dd>
+
+        <dt>Afternoon Shows:</dt>
+        <dd><span class="showtime">1:30 PM </span><a href="movie4.html">- Marivillin Gopurangal</a> </dd>
+
+        <dt>Evening Shows: </dt>
+
+        <dd><span class="showtime">9:00 PM </span><a href="movie3.html">- Nadikar</a></dd>
+
+    </list>
+    <table class="table">
+
+        <tr>
+            <th>Row 1</th>
+            <td><label for="seata1">seatA-1</label></td>
+            <td><input type="checkbox" name="seat" value="a1"></td>
+            <td><label for="seatb1">seatB-1</label></td>
+            <td><input type="checkbox" name="seat" value="b1"></td>
+            <td><label for="seatc1">seatC-1</label></td>
+            <td><input type="checkbox" name="seat" value="c1"></td>
+            <td><label for="seatd1">seatD-1</label></td>
+            <td><input type="checkbox" name="seat" value="d1"></td>
+        </tr>
+        <br>
+        <tr>
+            <th>Row 2</th>
+            <td><label for="seata2">seatA-2</label></td>
+            <td><input type="checkbox" name="seat" value="a2"></td>
+            <td><label for="seatb2">seatB-2</label></td>
+            <td><input type="checkbox" name="seat" value="b2"></td>
+            <td><label for="seatc2">seatC-2</label></td>
+            <td><input type="checkbox" name="seat" value="c2"></td>
+            <td><label for="seatd2">seatD-2</label></td>
+            <td><input type="checkbox" name="seat" value="d2"></td>
+
+        </tr>
+        <br>
+        <tr>
+            <th>Row 3</th>
+            <td><label for="seata3">seatA-3</label></td>
+            <td><input type="checkbox" name="seat" value="a3"></td>
+            <td><label for="seatb3">seatB-3</label></td>
+            <td><input type="checkbox" name="seat" value="b3"></td>
+            <td><label for="seatc3">seatC-3</label></td>
+            <td><input type="checkbox" name="seat" value="c3"></td>
+            <td><label for="seatd3">seatD-3</label></td>
+            <td><input type="checkbox" name="seat" value="d3"></td>
+
+        </tr>
+        <br>
+        <tr>
+            <th>Row 4</th>
+            <td><label for="seata4">seatA-4</label></td>
+            <td><input type="checkbox" name="seat" value="a4"></td>
+            <td><label for="seatb4">seatB-4</label></td>
+            <td><input type="checkbox" name="seat" value="b4"></td>
+            <td><label for="seatc4">seatC-4</label></td>
+            <td><input type="checkbox" name="seat" value="c4"></td>
+            <td><label for="seatd4">seatD-4</label></td>
+            <td><input type="checkbox" name="seat" value="d4"></td>
+
+        </tr>
+        <br>
+        <tr>
+            <th>Row 5</th>
+            <td><label for="seata5">seatA-5</label></td>
+            <td><input type="checkbox" name="seat" value="a5"></td>
+            <td><label for="seatb5">seatB-5</label></td>
+            <td><input type="checkbox" name="seat" value="b5"></td>
+            <td><label for="seatc5">seatC-5</label></td>
+            <td><input type="checkbox" name="seat" value="c5"></td>
+            <td><label for="seatd5">seatD-5</label></td>
+            <td><input type="checkbox" name="seat" value="d5"></td>
+
+        </tr>
+        <br>
+        <tr>
+            <th>Row 6</th>
+            <td><label for="seata6">seatA-6</label></td>
+            <td><input type="checkbox" name="seat" value="a6"></td>
+            <td><label for="seatb6">seatB-6</label></td>
+            <td><input type="checkbox" name="seat" value="b6"></td>
+            <td><label for="seatc6">seatC-6</label></td>
+            <td><input type="checkbox" name="seat" value="c6"></td>
+            <td><label for="seatd6">seatD-6</label></td>
+            <td><input type="checkbox" name="seat" value="d6"></td>
+        </tr>
+        <br>
+        <tr>
+            <th>Row 7</th>
+            <td><label for="seata7">seatA-7</label></td>
+            <td><input type="checkbox" name="seat" value="a7"></td>
+            <td><label for="seatb7">seatB-7</label></td>
+            <td><input type="checkbox" name="seat" value="b7"></td>
+            <td><label for="seatc7">seatC-</label></td>
+            <td><input type="checkbox" name="seat" value="c7"></td>
+            <td><label for="seatd7">seatD-7</label></td>
+            <td><input type="checkbox" name="seat" value="d7"></td>
+        </tr>
+        <br>
+        <tr>
+            <th>Row 8</th>
+            <td> <label for="seata8">seatA-8</label></td>
+            <td><input type="checkbox" name="seat" value="a8"></td>
+            <td><label for="seatb8">seatB-8</label></td>
+            <td><input type="checkbox" name="seat" value="b8"></td>
+            <td><label for="seatc8">seatC-8</label></td>
+            <td><input type="checkbox" name="seat" value="c8"></td>
+            <td><label for="seatd8">seatD-8</label></td>
+            <td><input type="checkbox" name="seat" value="d8"></td>
+        </tr>
+        <br>
+        <tr>
+            <th>Row 9</th>
+            <td><label for="seata9">seatA-9</label></td>
+            <td><input type="checkbox" name="seat" value="a9"></td>
+            <td><label for="seatb9">seatB-9</label></td>
+            <td><input type="checkbox" name="seat" value="b9"></td>
+            <td><label for="seatc9">seatC-9</label></td>
+            <td><input type="checkbox" name="seat" value="c9"></td>
+            <td><label for="seatd9">seatD-9</label></td>
+            <td><input type="checkbox" name="seat" value="d9"></td>
+
+        </tr>
+        <br>
+        <tr>
+            <th>Row 10</th>
+            <td><label for="seata10">seatA-10</label></td>
+            <td><input type="checkbox" name="seat" value="a10"></td>
+            <td><label for="seatb10">seatB-10</label></td>
+            <td><input type="checkbox" name="seat" value="b10"></td>
+            <td><label for="seatc10">seatC-10</label></td>
+            <td><input type="checkbox" name="seat" value="c10"></td>
+            <td><label for="seatd10">seatD-10</label></td>
+            <td><input type="checkbox" name="seat" value="d10"></td>
+            <br>
+        </tr>
+    </table>
+    <a href="confirmation_page.html"> <button>Confirm Reservation</button></a>
+
+
+
+    <section id="payment">
+        <h2 style="text-decoration:underline">Payment</h2>
+        <form>
+            <label for="card-number">Card Number</label>
+            <input type="text" id="card-number" name="card-number" required>
+            <button type="submit">Pay Now</button>
+        </form>
+    </section>
+
+    <script>
+        function isValidCardNumber(number) {
+  if (number.length !== 8) {
+    return false;
+  }
+  return true;
+}
+
+document.getElementById("payment").addEventListener("submit", function(event) {
+  event.preventDefault(); 
+
+  var cardNumber = document.getElementById("card-number").value;
+
+  if (cardNumber === "") {
+    alert("Please enter your card number.");
+  } else if (!isValidCardNumber(cardNumber)) {
+    alert("Invalid card number. Please enter exactly 8 digits.");
+  } else {
+    alert("Payment has been submitted.");
+  }
+});
+
+
+
+    </script>
+
+</body>
+
+</html>

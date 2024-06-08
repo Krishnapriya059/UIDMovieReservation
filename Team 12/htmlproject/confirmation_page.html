@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmation Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+          
+            max-width: 600px;
+            margin: auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"], input[type="password"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .error {
+            
+            display: none;
+            margin-top: -15px;
+            margin-bottom: 15px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h1>Movie Booking Confirmation</h1>
+    <form id="moviebooking">
+        <label for="fname">Name: </label>
+        <input type="text" name="fname" id="fname" required>
+        <label for="lname">Last Name: </label>
+        <input type="text" name="lname" id="lname" required>
+        <label for="phnno">Phone Number: </label>
+        <input type="text" name="phnno" id="phnno" required>
+        <label for="uremail">Email: </label>
+        <input type="email" name="uremail" id="uremail" required>
+        <label for="cardname">Card Name: </label>
+        <input type="text" name="cardname" id="cardname" required>
+        <label for="cardno">Card Number: </label>
+        <input type="password" name="cardno" id="cardno" required>
+        <span class="error" id="paymentError">Enter correct payment details</span>
+        <button type="submit">Confirm Booking</button>
+    </form>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const form = document.getElementById("moviebooking");
+            const paymentError = document.getElementById("paymentError");
+
+            form.addEventListener('submit', function (e) {
+                let valid = true;
+
+                const cardNumber = document.getElementById('cardno').value;
+            function validateCardNumber(cardNumber) {
+              
+                cardNumber = cardNumber.replace(/\D/g, '');
+                return cardNumber.length >= 13 && cardNumber.length <= 19;
+            }
+                
+                if (!validateCardNumber(cardNumber)) {
+                    valid = false;
+                    paymentError.textContent = 'Invalid card number format';
+                    paymentError.style.display = 'block';
+                }
+                
+              
+            });
+            
+
+           
+        });
+    </script>
+</body>
+</html>
