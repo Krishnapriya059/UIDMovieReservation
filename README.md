@@ -1,19 +1,19 @@
 # UIDMovieReservation
-Title: Movie Reservation System
+# Title: Movie Reservation System
 
-Team members:
-                 Krishnapriya . P ………. AM.SC.U4CSE23044
-                 Meenakshi Manoj ……. AM.SC.U4CSE23052
-                 Parvathy .V …………….. AM.SC.U4CSE23063              
+## Team members:
+### Krishnapriya . P. AM.SC.U4CSE23044
+### Meenakshi Manoj. AM.SC.U4CSE23052
+### Parvathy .V. AM.SC.U4CSE23063              
 
 
 
-Project Summary: Movie Reservation System
-1.1 Project Overview The Movie Reservation System is a comprehensive solution for streamlining the movie ticket booking process. It enables users to browse movie listings, check showtimes, and reserve seats conveniently using a web-based application accessible on smartphones and other smart devices. This system aims to replace traditional ticketing methods, reducing paperwork and enhancing user experience.
-1.2 Project Scope The web application provides a user-friendly platform for customers to register, browse movies, select showtimes, choose seats, and make secure online payments. Admin users can manage movie listings, theater details, and user accounts efficiently.
-2.0 General Description
-Types of Users/Actors:
-1.	Admin: Manages movie listings, theaters, and user accounts.
+### Project Summary: Movie Reservation System
+#### 1.1 Project Overview The Movie Reservation System is a comprehensive solution for streamlining the movie ticket booking process. It enables users to browse movie listings, check showtimes, and reserve seats conveniently using a web-based application accessible on smartphones and other smart devices. This system aims to replace traditional ticketing methods, reducing paperwork and enhancing user experience.
+#### 1.2 Project Scope The web application provides a user-friendly platform for customers to register, browse movies, select showtimes, choose seats, and make secure online payments. Admin users can manage movie listings, theater details, and user accounts efficiently.
+### 2.0 General Description
+#### Types of Users/Actors:
+##### 1.	Admin: Manages movie listings, theaters, and user accounts.
 2.	Customer: Registers, browses movies, reserves seats, and makes payments.
 2.1 Product Functions Overview
 Admin Features:
