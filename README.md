@@ -14,21 +14,21 @@
 ### 2.0 General Description
 #### Types of Users/Actors:
 ##### 1.	Admin: Manages movie listings, theaters, and user accounts.
-2.	Customer: Registers, browses movies, reserves seats, and makes payments.
-2.1 Product Functions Overview
-Admin Features:
+##### 2.	Customer: Registers, browses movies, reserves seats, and makes payments.
+#### 2.1 Product Functions Overview
+### Admin Features:
 •	Add new movies with details like genre, synopsis, and showtimes.
 •	Manage theaters, seating layouts, and showtime schedules.
 •	Monitor and manage user accounts and bookings.
-Customer Features:
+### Customer Features:
 •	Register and log in to view available movies and showtimes.
 •	Select movie, showtime, and preferred seats for booking.
 •	Make secure online payments for reservations.
-User Interface Design
+### User Interface Design
 The user interface will be designed to provide intuitive interactions for both admins and customers:
 •	Admin Interface: Dashboard for managing movies, theaters, and user accounts.
 •	Customer Interface: User-friendly interface for browsing movies, selecting showtimes, and reserving seats.
-Feature Ownership by Team Members:
+### Feature Ownership by Team Members:
 •	User Interface Design: Visual layout of web elements for admin and customer interfaces.
 Technology Stack:
 •	Frontend: HTML/CSS, JavaScript (React/Vue.js)
@@ -36,11 +36,11 @@ Technology Stack:
 •	Database: MongoDB or MySQL
 •	Payment Integration: Stripe or PayPal for secure online transactions
 •	Authentication: JWT (JSON Web Tokens) for user authentication
-Timeline and Milestones:
+### Timeline and Milestones:
 •	Planning and Design: Define requirements, UI/UX mockups - 1 month
 •	Development: Frontend and backend development, database integration - 2 months
 •	Testing and Deployment: Unit testing, integration testing, deployment on cloud platform - 1 month
-Future Enhancements:
+### Future Enhancements:
 •	Mobile app version for iOS and Android platforms.
 •	Integration with cinema ticketing APIs for real-time movie and showtime updates.
 •	Loyalty program integration for customer retention and engagement.
